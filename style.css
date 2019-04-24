@@ -1,0 +1,66 @@
+html, body {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: #084C61;
+    background: #254E70;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#main-header {
+    font-weight: 700;
+    font-size: 2.5em;
+    color: #C33C54;
+}
+
+#container {
+    background: #B2FFD6;
+    font-weight: 500;
+}
+
+#timer-label {
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-top: 0.4em;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+#timer-select {
+    margin-top: 2em;
+}
+
+#timer-select > div {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+#time-left > p {
+    display: inline-block;
+    font-size: 4em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.control-btn {
+    display: inline-block;
+    font-size: 3em;
+    margin: 0.4em;
+}
+
+i {
+    cursor: pointer;
+}
